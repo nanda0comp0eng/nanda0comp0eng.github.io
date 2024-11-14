@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Medium</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Medium</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listArtikel.html">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Writers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <article class="bg-dark text-white rounded-lg shadow-md p-6">
+      <h2 class="text-2xl font-weight-bold mb-4">WEBSITE! how does it works?</h2>
+      <img src="img/webFlow.jpg" class="img-fluid rounded mx-auto d-block" style="object-fit: cover; width: 50%; height: 50%;" alt="Responsive image">
+      <p class="mb-4">Websites are like portals to a vast digital landscape, but ever wondered what actually happens behind the scenes when you click on that link? Let's pull back the curtain and unveil the magic!</p>
+      <p class="mb-4">Imagine a website as a delicious cake. You see the beautiful frosting and decorations on top (the website's design and content), but there's a whole lot going on behind the scenes to make it work (the website's technology and infrastructure). Your browser, the eager customer, sends a request to the web server, the bustling kitchen where the cake is assembled. The server gathers ingredients from storage (web hosting servers), like the cake's layers (HTML code), frosting (CSS styles), and sprinkles (JavaScript interactivity). It then bakes the cake (webpage) and delivers it to your browser, who interprets it and displays the final masterpiece on your screen. But websites are more than just static pages; they're dynamic hubs powered by databases, forms, and even AI, making your online journey smooth and engaging. So next time you browse your favorite website, take a moment to appreciate the complex magic that goes into making it work.</p>
+    </article>
+
+    <article class="bg-dark text-white rounded-lg shadow-md p-6 mt-5">
+      <h2 class="text-2xl font-weight-bold mb-4">LET'S DIVE DEEPER!</h2>
+      <h3 class="text-xl font-weight-bold mb-2">The Front-End: Where Beauty and Interactivity Meet</h3>
+      <p class="mb-4">Think of the front-end as the website's captivating face and engaging personality. It's crafted using a trio of powerful languages:</p>
+      <ul class="list-disc pl-6 mb-4">
+        <li>HTML: The foundation, responsible for structuring the content and defining the basic elements of a page.</li>
+        <li>CSS: The stylist, in charge of adding vibrant colors, sleek fonts, and eye-catching layouts.</li>
+        <li>JavaScript: The magician, bringing interactivity to the forefront, making elements move, react, and create a dynamic experience.</li>
+      </ul>
+      <h3 class="text-xl font-weight-bold mb-2">The Back-End: The Brains Behind the Operation</h3>
+      <p class="mb-4">Behind the scenes, the back-end plays the role of mastermind. It's where the real magic happens, powered by programming languages like PHP, Python, Ruby, or Java.</p>
+      <img src="img/webArc.jpg" class="img-fluid rounded mx-auto d-block" style="object-fit: cover; width: 50%; height: 50%;" alt="Responsive image">
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="text-lg font-weight-bold mb-2">Frameworks</h4>
+          <p>To streamline development, frameworks offer pre-built tools and structures, saving developers time and effort. Popular choices include Ruby on Rails, Django, and Spring.</p>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-lg font-weight-bold mb-2">Databases</h4>
+          <p>These are the memory banks, storing essential information for the website to function. MySQL, PostgreSQL, Oracle, CouchDB, and Redis are just a few examples.</p>
+        </div>
+      </div>
+      <p class="mt-4">When it comes to website APIs, things get even more interesting! Essentially, a website API allows other applications to interact with and "talk" to your website. It's like building an open door, inviting other developers to use your website's data and functionality in their own projects.</p>
+      <h3 class="text-xl font-weight-bold mb-2">Here are some ways website APIs are used:</h3>
+      <ul class="list-disc pl-6 mb-4">
+        <li>Data feeds: Imagine a news website offering an API that delivers live headlines to other apps. News aggregators could utilize this API to display fresh news within their platforms.</li>
+        <li>E-commerce integrations: Shopping cart plugins for blogs or social media platforms can leverage e-commerce website APIs to display product information and facilitate purchases directly within their own interfaces.</li>
+        <li>User authentication: Websites can offer APIs that other platforms can use to verify user logins and grant access to specific features. For example, a forum might offer an API to allow users to log in using their existing forum credentials.</li>
+        <li>Social media buttons: Those "Like" and "Share" buttons you see everywhere? They work thanks to social media APIs that let websites integrate social media functionality into their pages.</li>
+        <li>Custom integrations: The possibilities are endless! Developers can use website APIs to build all sorts of creative integrations, from personalized recommendations to interactive games.</li>
+      </ul>
+      <h3 class="text-xl font-weight-bold mb-2">Different Types of Website APIs</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <h4 class="text-lg font-weight-bold mb-2">RESTful APIs</h4>
+          <p>These are popular APIs that use HTTP requests and responses to communicate. They're known for their flexibility and ease of use.</p>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-lg font-weight-bold mb-2">GraphQL APIs</h4>
+          <p>This newer approach allows developers to specify exactly what data they need, making them more efficient and tailored.</p>
+        </div>
+        <div class="col-md-6">
+          <h4 class="text-lg font-weight-bold mb-2">Webhooks</h4>
+          <p>These APIs send real-time notifications when specific events occur on your website, allowing other applications to react instantly.</p>
+        </div>
+      </div>
+      <h3 class="text-xl font-weight-bold mb-2">Benefits of Website APIs</h3>
+      <ul class="list-disc pl-6 mb-4">
+        <li>Increased reach and engagement: By making your website's data and functionality accessible, you open yourself up to a wider audience and potential collaborations.</li>
+        <li>Boost developer community: Offering a well-documented API attracts developers, who can build innovative integrations and expand your website's ecosystem.</li>
+        <li>Streamline development: Developers can leverage your API instead of building similar features from scratch, saving time and resources.</li>
+      </ul>
+      <h3 class="text-xl font-weight-bold mb-2">Considerations for Website APIs</h3>
+      <ul class="list-disc pl-6 mb-4">
+        <li>Security and privacy: You need to ensure your API is secure and only authorized users can access your data.</li>
+        <li>Documentation and support: Provide clear documentation and support for developers to effectively integrate with your API.</li>
+        <li>Maintenance and updates: Maintaining and updating your API is crucial to ensure smooth operation and avoid breaking existing integrations.</li>
+      </ul>
+      <p class="mb-4">Overall, website APIs are powerful tools that can enhance your website's reach, functionality, and engagement. By opening your doors to collaboration, you can unlock exciting possibilities and contribute to the vibrant ecosystem of the web.</p>
+    </article>
+  </main>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; Tugas UTS || All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Medium</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-dark text-white">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">My Medium</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="listArtikel.html">Stories</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="profile.html">Writers</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid position-relative overflow-hidden">
+    <img src="img/header.jpg" alt="Jumbotron Background" class="jumbotron-bg-image position-absolute w-100 h-100 top-0 left-0 object-fit-cover">
+    <div class="container py-5 position-relative z-1">
+      <h1 class="display-3 font-weight-bold mb-3 text-white">Welcome to My Medium</h1>
+      <p class="lead mb-4 text-white">Discover stories, thinking, and expertise from writers on any topic.</p>
+      <a href="#blog" class="btn btn-primary btn-lg">Start Reading</a>
+    </div>
+  </div>
+
+  <div class="container my-5" id="blog">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card bg-secondary text-white shadow-sm h-100">
+          <div class="card-img-top" style="height: 400px; overflow: hidden;">
+            <img src="img/http.jpg" class="img-fluid" alt="Placeholder Image" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Basic HTTP</h5>
+            <p class="card-text">What is HTTP ?.</p>
+            <a href="Basic_HTTP.html" class="btn btn-primary mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary text-white shadow-sm h-100">
+          <div class="card-img-top" style="height: 400px; overflow: hidden;">
+            <img src="img/webMeme.jpg" class="img-fluid" alt="Placeholder Image" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">WEBSITE! how does it works?</h5>
+            <p class="card-text">Have you ever wondered what actually happens behind the scenes when you click on that link?</p>
+            <a href="website.html" class="btn btn-primary mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card bg-secondary text-white shadow-sm h-100">
+          <div class="card-img-top" style="height: 400px; overflow: hidden;">
+            <img src="img/front.jpg" class="img-fluid" alt="Placeholder Image" style="object-fit: cover; width: 100%; height: 100%;">
+          </div>
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Front End and Back End Vulnerabilities</h5>
+            <p class="card-text">a few vulnerabilities that can help you better understand front-end and back-end security issues.</p>
+            <a href="frontbackVuln.html" class="btn btn-primary mt-auto">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-dark text-white py-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; Tugas UTS || All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
